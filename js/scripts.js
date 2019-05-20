@@ -72,31 +72,5 @@ $(document).ready(function() {
       $(".screen").append(".");
     };
   });
-  /*
-  function (i,e) {
-  	$(i).on("click", function(){
-  		var input = $.trim($(".screen").html())
-  		var lastChar = input[input.length-1];
-  		if (lastChar === e) {
-  			return false
-  		}else {
-  			$(".screen").append(e);
-  		};
 
-  	});
-  };
-
-  /*
-  var operators = ["/","*","+","-","."]
-  var i = 0
-  var input = $.trim($(".screen").html())
-  var lastChar = input[input.length-1];
-  while (lastChar === operators[i]) {
-  	$("#decimal").on("click", function(){
-  		console.log("We getting somewehre here?")
-  		i++;
-  	})
-  		console.log(operators[i]);
-  	i++;
-  */
 });
