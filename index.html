@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--below-makes tells browser how to load pg in ie-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- for phones-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title> Calculator</title>
+</head>
+<body>
+  <div class="container-fluid" id="calculator">
+    <div class="screen">
+    </div>
+    <div class="buttons">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+        <ul> 
+          <li id="black" class="glyphicon glyphicon-education"></li>
+          <li id="backspace" class="operator">Del</li>
+          <li id="clear" class="key">C</li>
+          <li class="operator" value=" + " id="plus">+</li>
+        </ul>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+        <ul> 
+          <li id="seven" class="key" value="7">7</li>
+          <li class="key" value="8">8</li>
+          <li class="key" value="9">9</li>
+          <li id="divide">/</li>
+        </ul>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+        <ul>
+          <li class="key" value="4">4</li>
+          <li class="key" value="5">5</li>
+          <li class="key" value="6">6</li>
+          <li class ="operator" id="multiply">*</li>
+        </ul>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-xs-12">
+        <ul>
+          <li class="key" value="1">1</li>
+          <li class="key" value="2">2</li>
+          <li class="key" value="3">3</li>
+          <li id="minus">-</li>
+        </ul>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-xs-12">
+        <ul>
+          <li class="key" value="0">0</li>
+          <li id="decimal">.</li>
+          <li style="width:49%" id="equals">=</li>
+        </ul>
+        </div>
+      </div><!--row-->
+    </div><!--buttons-->
+  </div><!--container-->
+  <!-- Bootstrap core JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
